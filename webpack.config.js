@@ -14,7 +14,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/templates/past-events.html',
-      filename: 'past-events.html',
+      filename: 'past-events/index.html',
       title: 'Past Events',
     })
   ]
